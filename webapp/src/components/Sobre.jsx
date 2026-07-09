@@ -25,16 +25,16 @@ export default function Sobre() {
         </div>
         <div className="sobre-meta">
           <span>
-            <span className="meta-key">status:</span> 3er año
+            <span className="meta-key">Carrera:</span> Ingeniería en Informática
           </span>
           <span>
-            <span className="meta-key">focus:</span> backend · full stack
+            <span className="meta-key">Etapa:</span> 3er año
           </span>
           <span>
-            <span className="meta-key">base:</span> Montevideo, UY
+            <span className="meta-key">Intereses:</span> backend y full stack
           </span>
           <span>
-            <span className="meta-key">modo:</span> buscando 1ª experiencia
+            <span className="meta-key">Ubicación:</span> Montevideo, Uruguay
           </span>
         </div>
       </div>
