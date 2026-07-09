@@ -1,0 +1,35 @@
+.footer {
+  position: relative;
+  z-index: 1;
+  border-top: 1px solid rgba(99, 199, 77, 0.18);
+  padding: 24px 6vw;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 12px;
+  align-items: center;
+  justify-content: space-between;
+  font-family: var(--font-mono);
+  font-size: 11px;
+  color: rgba(244, 245, 246, 0.4);
+}
+
+.footer-status {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+}
+
+.footer-status-dot {
+  width: 6px;
+  height: 6px;
+  border-radius: 50%;
+  background: #63c74d;
+  animation: blinkDot 2.4s ease-in-out infinite;
+}
+
+@media (max-width: 560px) {
+  .footer {
+    justify-content: center;
+    text-align: center;
+  }
+}

@@ -1,0 +1,27 @@
+.hud-grid {
+  position: fixed;
+  inset: 0;
+  pointer-events: none;
+  z-index: 0;
+  background-image: linear-gradient(rgba(99, 199, 77, 0.045) 1px, transparent 1px),
+    linear-gradient(90deg, rgba(99, 199, 77, 0.045) 1px, transparent 1px);
+  background-size: 56px 56px;
+}
+
+.hud-glow {
+  position: fixed;
+  inset: 0;
+  pointer-events: none;
+  z-index: 0;
+  background: radial-gradient(ellipse 70% 55% at 50% 0%, rgba(46, 125, 50, 0.14), transparent 65%);
+}
+
+.float-dot {
+  position: fixed;
+  border-radius: 50%;
+  pointer-events: none;
+  z-index: 0;
+  animation-name: floatDot;
+  animation-timing-function: ease-in-out;
+  animation-iteration-count: infinite;
+}

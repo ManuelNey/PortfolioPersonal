@@ -1,0 +1,30 @@
+.section-head {
+  display: flex;
+  align-items: center;
+  gap: 14px;
+}
+
+.section-title {
+  margin: 0;
+  font-size: clamp(26px, 3vw, 36px);
+  font-weight: 700;
+  letter-spacing: 0;
+}
+
+.section-rule {
+  flex: 1;
+  height: 1px;
+  background: linear-gradient(90deg, rgba(99, 199, 77, 0.5), transparent);
+}
+
+@media (max-width: 480px) {
+  .section-head {
+    gap: 10px;
+  }
+  .section-title {
+    font-size: 26px;
+  }
+  .section-rule {
+    min-width: 48px;
+  }
+}
